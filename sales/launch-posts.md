@@ -1,4 +1,4 @@
-﻿# Launch Posts
+# Launch Posts
 
 ## X Main Post
 
@@ -9,7 +9,7 @@ A free TypeScript starter for checking AI tool names, input schemas, examples, a
 Useful if your app relies on tool-calling agents.
 
 Download:
-GUMROAD_URL_PLACEHOLDER
+https://archinode.gumroad.com/l/ai-tool-schema-contract-kit
 
 ## X Reply
 

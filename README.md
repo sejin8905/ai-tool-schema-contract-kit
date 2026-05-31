@@ -96,3 +96,9 @@ Review, test, and adapt the code before using it with real users, production dat
 MIT License. You may use and adapt this free kit for personal, internal, commercial, or client projects.
 
 Do not imply ArchiNode certifies, reviews, operates, or monitors your production agent workflow.
+
+## Free Download
+
+Gumroad:
+
+https://archinode.gumroad.com/l/ai-tool-schema-contract-kit

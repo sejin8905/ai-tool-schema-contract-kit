@@ -1,4 +1,4 @@
-PRODUCT SUMMARY:
+﻿PRODUCT SUMMARY:
 Free TypeScript starter kit for checking AI tool schemas, examples, approvals, and breaking contract changes.
 
 FULL GUMROAD DESCRIPTION:
@@ -113,7 +113,7 @@ Free GitHub repo:
 
 You can review the public source before downloading:
 
-GITHUB_URL_PLACEHOLDER
+https://github.com/sejin8905/ai-tool-schema-contract-kit
 
 Use it as a clean starting point for local AI tool contract checks, then adapt it to your own agent system.
 

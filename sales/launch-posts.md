@@ -1,4 +1,4 @@
-# Launch Posts
+﻿# Launch Posts
 
 ## X Main Post
 
@@ -14,7 +14,7 @@ GUMROAD_URL_PLACEHOLDER
 ## X Reply
 
 GitHub:
-GITHUB_URL_PLACEHOLDER
+https://github.com/sejin8905/ai-tool-schema-contract-kit
 
 Includes:
 - local contract checker

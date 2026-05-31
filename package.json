@@ -1,0 +1,50 @@
+{
+  "name": "ai-tool-schema-contract-kit",
+  "version": "0.1.0",
+  "description": "Free TypeScript starter kit for checking AI tool schemas, examples, approval metadata, and breaking contract changes.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "ai-tool-schema-contract": "./dist/cli.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "scripts": {
+    "dev": "tsx examples/passing-contract.ts",
+    "demo:fail": "tsx examples/failing-contract.ts",
+    "demo:diff": "tsx examples/diff-report-demo.ts",
+    "cli:pass": "tsx src/cli.ts examples/tools.current.json",
+    "cli:diff": "tsx src/cli.ts examples/tools.current.json --previous examples/tools.previous.json",
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "tool-schema",
+    "tool-calling",
+    "contract-testing",
+    "typescript",
+    "llm"
+  ],
+  "author": "ArchiNode",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.4"
+  }
+}

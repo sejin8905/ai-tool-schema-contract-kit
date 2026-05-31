@@ -1,0 +1,46 @@
+{
+  "tools": [
+    {
+      "name": "search_docs",
+      "description": "Search approved product documentation before answering support questions.",
+      "version": "1.0.0",
+      "owner": "support-platform",
+      "risk": "low",
+      "requiresApproval": false,
+      "inputSchema": {
+        "type": "object",
+        "required": ["query"],
+        "properties": {
+          "query": { "type": "string" },
+          "limit": { "type": "integer" }
+        }
+      },
+      "exampleInput": {
+        "query": "refund policy",
+        "limit": 3
+      }
+    },
+    {
+      "name": "create_ticket",
+      "description": "Create a support ticket for a human review queue.",
+      "version": "1.0.0",
+      "owner": "support-platform",
+      "risk": "medium",
+      "requiresApproval": false,
+      "inputSchema": {
+        "type": "object",
+        "required": ["summary"],
+        "properties": {
+          "summary": { "type": "string" }
+        }
+      },
+      "exampleInput": {
+        "summary": "Customer reports billing question."
+      }
+    }
+  ],
+  "policy": {
+    "requireOwner": true,
+    "requireVersion": true
+  }
+}

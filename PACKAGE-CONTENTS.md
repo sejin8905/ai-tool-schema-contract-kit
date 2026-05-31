@@ -1,0 +1,30 @@
+# Package Contents
+
+- `src/index.ts` - core contract checker
+- `src/cli.ts` - local CLI runner
+- `tests/tool-contract.test.ts` - Vitest test suite
+- `examples/passing-contract.ts` - passing demo
+- `examples/failing-contract.ts` - intentional failure demo
+- `examples/diff-report-demo.ts` - breaking-change diff demo
+- `examples/nextjs-route-reference.ts` - framework reference
+- `examples/tools.previous.json` - previous registry fixture
+- `examples/tools.current.json` - current registry fixture
+- `docs/quickstart.md` - setup steps
+- `docs/tool-contract-design.md` - contract design notes
+- `docs/breaking-change-guide.md` - diff guidance
+- `docs/ci-workflow.md` - CI guidance
+- `docs/failure-modes.md` - limitations and edge cases
+- `docs/production-checklist.md` - pre-production review checklist
+- `sales/gumroad-product-page.md` - Gumroad copy
+- `sales/launch-posts.md` - launch copy
+- `sales/pricing-note.md` - pricing note
+- `sales/refund-policy.md` - platform refund note
+- `README.md`
+- `LICENSE.md`
+- `REFUND-POLICY.md`
+- `BUYER-CHECKLIST.md`
+- `CHANGELOG.md`
+- `package.json`
+- `tsconfig.json`
+- `tsconfig.build.json`
+- `vitest.config.ts`
